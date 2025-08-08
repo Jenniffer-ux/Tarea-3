@@ -1,9 +1,9 @@
 
-# 🧠 Tarea: Optimización de Precios con Redes Neuronales
+#Tarea: Optimización de Precios con Redes Neuronales
 
 Este proyecto implementa una red neuronal desde cero utilizando únicamente NumPy, con el objetivo de predecir la demanda de productos en función de sus características (precio, categoría, stock, etc.).
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 tarea-redes-neuronales-final/
@@ -23,21 +23,7 @@ tarea-redes-neuronales-final/
 └── README.md
 ```
 
-## ⚙️ Cómo ejecutar
-
-1. Clona el repositorio o súbelo a Colab
-2. Ejecuta:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Corre los notebooks en orden:
-   - `01_implementacion_red.ipynb`
-   - `02_experimentacion.ipynb`
-   - `03_analisis_resultados.ipynb`
-
-## 📊 Resultados
+## Resultados
 
 Comparación de arquitecturas y activaciones para predicción de demanda (MSE ↓):
 
@@ -47,13 +33,13 @@ Comparación de arquitecturas y activaciones para predicción de demanda (MSE �
 - La red neuronal con `tanh` logró resultados competitivos.
 - Las activaciones `sigmoid` y `relu` necesitaron ajustes para mejorar.
 
-## 🧠 Lecciones Aprendidas
+## Lecciones Aprendidas
 
 - El entrenamiento desde cero puede causar inestabilidad numérica (`NaN`) si no se ajusta bien el `learning_rate`.
 - Activaciones como `tanh` son más estables en redes pequeñas.
 - A pesar de que modelos simples como regresión lineal pueden funcionar mejor en problemas lineales, las redes neuronales son útiles en escenarios más complejos.
 
-## 🚀 Mejoras Futuras
+##  Mejoras Futuras
 
 - Migrar el modelo a TensorFlow o PyTorch
 - Añadir optimizadores como Adam
